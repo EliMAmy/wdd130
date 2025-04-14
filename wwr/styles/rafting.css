@@ -10,7 +10,8 @@
 header{
     background-color: var(--primary-color);
     color: var(--accent2-color);
-    display: flex;
+    display: grid;
+    grid-auto-flow: column;
     justify-content: center;
     gap:4rem;
     width: 100px;
