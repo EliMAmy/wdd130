@@ -149,10 +149,7 @@ nav a img{
 .adventure div{
     display: flex;
 }
-.info{
-    grid-auto-flow: center;
-    margin-top: 30px;
-}
+
 .info h1, .info h2{
     color: #744f25;
     text-align: center;
@@ -179,21 +176,19 @@ nav a img{
 }
 
 .jpg{
-    margin: 0 5%;
-
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 .employees{
     display: flex;
-    top:100px ;
-
 }
 
 .employee img{
-    display: flex;
-    flex-direction: row;
-    width: 240px;
+    width: 250px;
     height: 200px;
-    padding: 20px
+    padding: 20px;
+    margin-left: -75px;
 }
 .employee figcaption{
     background-color: #fffcfc;
@@ -204,7 +199,7 @@ nav a img{
 }
 .form{
     max-width: 600px;
-    margin: 0 10%;
+    margin: 0 18%;
 }
 label,legend {
     margin-top: 10px;
@@ -229,10 +224,9 @@ button {
   }
 
 textarea{
-    width: 564px;
+    width: 500px;
 }
-#name,#email{
-    width: 227px;
-
+#name, #email{
+    width: 196px;
 }
 
