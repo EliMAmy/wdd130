@@ -87,7 +87,7 @@ header,main,footer {
     margin: 0 auto;
 }
 
-h1,h2 {
+.hero h1,h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     text-align: center;
@@ -105,6 +105,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    background-color: #91cccc;
 }
 
 nav a img{
@@ -120,7 +121,7 @@ nav a img{
     height: 400px;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -147,5 +148,91 @@ h1 {
 }
 .adventure div{
     display: flex;
+}
+.info{
+    grid-auto-flow: center;
+    margin-top: 30px;
+}
+.info h1, .info h2{
+    color: #744f25;
+    text-align: center;
 
 }
+.maps{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.maps p{
+    padding: 0.5px;
+    text-align:left;
+}
+.map-text{
+    padding-top: 20%;
+}
+.map{
+    grid-row: 1/4;
+    grid-column: 2/3;
+}
+.map iframe{
+    width: 600px;
+    height: 300px;
+}
+
+.jpg{
+    margin: 0 5%;
+
+}
+.employees{
+    display: flex;
+    top:100px ;
+
+}
+
+.employee img{
+    display: flex;
+    flex-direction: row;
+    width: 240px;
+    height: 200px;
+    padding: 20px
+}
+.employee figcaption{
+    background-color: #fffcfc;
+    color: #533f20;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+.form{
+    max-width: 600px;
+    margin: 0 10%;
+}
+label,legend {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+  }
+.input {
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 45%;
+  }
+
+textarea{
+    width: 564px;
+}
+#name,#email{
+    width: 227px;
+
+}
+
